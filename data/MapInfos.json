@@ -47,5 +47,5 @@ null,
 {"id":45,"expanded":false,"name":"Left vent requiem","order":22,"parentId":35,"scrollX":649,"scrollY":371},
 {"id":46,"expanded":true,"name":"fake","order":18,"parentId":19,"scrollX":651,"scrollY":541},
 {"id":47,"expanded":true,"name":"MAP047","order":48,"parentId":48,"scrollX":819,"scrollY":461},
-{"id":48,"expanded":false,"name":"Pizza Sim","order":47,"parentId":0,"scrollX":819,"scrollY":461}
+{"id":48,"expanded":true,"name":"Pizza Sim","order":47,"parentId":0,"scrollX":819,"scrollY":461}
 ]
