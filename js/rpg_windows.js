@@ -5743,11 +5743,11 @@ Window_TitleCommand.initCommandPosition = function() {
 };
 
 Window_TitleCommand.prototype.windowWidth = function() {
-    return 240;
+    return 168;
 };
 
 Window_TitleCommand.prototype.updatePlacement = function() {
-    this.x = (Graphics.boxWidth - this.width) / 2;
+    this.x = (Graphics.boxWidth - this.width) - 637;
     this.y = Graphics.boxHeight - this.height - 96;
 };
 

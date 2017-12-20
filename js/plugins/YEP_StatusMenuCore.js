@@ -946,7 +946,6 @@ Window_StatusInfo.prototype.drawParameters = function() {
 			text = Yanfly.Util.toGroup(this._actor.param(i))
 			this.changeTextColor(this.normalColor());
 			dw2 = dw * rate;
-			this.drawText(text, dx, dy, dw2 - 4, 'right');
 		}
 };
 
@@ -959,10 +958,7 @@ Window_StatusInfo.prototype.drawParamGauge = function(dx, dy, dw, paramId) {
 
 Window_StatusInfo.prototype.calcParamRate = function(paramId) {
 		if (this._largestParam === this._smallestParam) return 1.0;
-		var rate = parseFloat(this._actor.param(paramId) - this._smallestParam) /
-							 parseFloat(this._largestParam - this._smallestParam);
-		rate *= 0.7;
-		rate += 0.3;
+		var rate = this._actor.param(paramId) / 750;
 		return rate;
 };
 

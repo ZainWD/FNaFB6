@@ -19,16 +19,16 @@ Window_ConfirmCommand.initCommandPosition = function() {
 };
 
 Window_ConfirmCommand.prototype.windowWidth = function () {
-    return 295;
+    return 816;
 };
 
 Window_ConfirmCommand.prototype.windowHeight = function () {
-    return 120;
+    return 180;
 };
 
 Window_ConfirmCommand.prototype.updatePlacement = function () {
-    this.x = 208;
-    this.y = 232;
+    this.x = 0;
+    this.y = 636;
 };
 
 Window_ConfirmCommand.prototype.makeCommandList = function() {
