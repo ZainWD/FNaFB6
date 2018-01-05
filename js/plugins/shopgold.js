@@ -34,12 +34,13 @@ function Window_Gold2() {
     };
 
     Scene_Map.prototype.createGoldWindow = function () {
-        this._goldWindow = new Window_Gold2(8, 554);
+        this._goldWindow = new Window_Gold2(0, 554);
         this._goldWindow.y = Graphics.boxHeight - this._goldWindow.height;
         this.addWindow(this._goldWindow);
         this._goldWindow.refresh();
+        
     };
-
+    
     var _Scene_Map_update =
 Scene_Map.prototype.update;
     Scene_Map.prototype.update = function() {
@@ -52,6 +53,15 @@ Scene_Map.prototype.update;
     Scene_Map.prototype.terminate = function () {
         this._goldWindow.visible = false;
         _Scene_Map_terminate.call(this);
+    };
+
+    var _Window_Gold2_refresh =
+    Window_Gold2.prototype.refresh;
+    Window_Gold2.prototype.refresh = function
+    () {
+        _Window_Gold2_refresh.call(this);
+        this.x = $gameVariables.value(107);
+        this.y = $gameVariables.value(108);
     };
 
     //=============================================================================

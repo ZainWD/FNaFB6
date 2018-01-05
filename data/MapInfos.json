@@ -46,9 +46,10 @@ null,
 {"id":44,"expanded":false,"name":"Sewers","order":17,"parentId":19,"scrollX":651,"scrollY":6349},
 {"id":45,"expanded":false,"name":"Left vent requiem","order":22,"parentId":35,"scrollX":649,"scrollY":371},
 {"id":46,"expanded":true,"name":"fake","order":18,"parentId":19,"scrollX":651,"scrollY":541},
-{"id":47,"expanded":true,"name":"MAP047","order":48,"parentId":48,"scrollX":832,"scrollY":640},
-{"id":48,"expanded":true,"name":"Pizza Sim","order":47,"parentId":0,"scrollX":659,"scrollY":371},
-{"id":49,"expanded":true,"name":"Title shit","order":51,"parentId":0,"scrollX":659,"scrollY":371},
-{"id":50,"expanded":true,"name":"Shop Screen","order":49,"parentId":48,"scrollX":659,"scrollY":371},
-{"id":51,"expanded":false,"name":"Animatronic Shop","order":50,"parentId":50,"scrollX":659,"scrollY":371}
+{"id":47,"expanded":true,"name":"MAP047","order":48,"parentId":48,"scrollX":659,"scrollY":371},
+{"id":48,"expanded":true,"name":"Pizza Sim","order":47,"parentId":0,"scrollX":878.6666666666666,"scrollY":494.6666666666667},
+{"id":49,"expanded":true,"name":"Title shit","order":52,"parentId":0,"scrollX":659,"scrollY":371},
+{"id":50,"expanded":true,"name":"Shop Screen","order":49,"parentId":48,"scrollX":790.8,"scrollY":445.2},
+{"id":51,"expanded":false,"name":"Animatronic Shop","order":50,"parentId":50,"scrollX":790.8,"scrollY":445.2},
+{"id":52,"expanded":true,"name":"Pizza1","order":51,"parentId":48,"scrollX":659,"scrollY":371}
 ]
